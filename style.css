@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+#section{
+    /* padding: 1% 15%; */
+    padding: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+ul li a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background-color: #1F2937;
+    
+}
+.headline-left{
+    font-display: flex;
+    align-items: center;
+    /* flex-basis: 400px; */
+    
+}
+p.big-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+p.small-text{
+    font-size: 22px;
+    color: #e5e7eb;
+    margin-bottom: 18px;
+}
+.sign-up1{
+    background-color: #3882f6;
+    /* border: 2px solid white; */
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 9px 30px;
+    border-style: none;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.image-text{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+
+}
+#image-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 200px;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;  
+    color: #1F2937;
+}
+
+.citation{
+    font-style: italic;
+    /* font-weight: 100; */
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
+
+.CTA{
+    background-color: #3882f6;
+    margin: 7% 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 10px;
+}
+.CTA-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #e5e7eb;
+}
+.large{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sign-up{
+    background-color: #3882f6;
+    border: 1px solid white;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 9px 30px;
+    /* border-style: none; */
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px;
+}
